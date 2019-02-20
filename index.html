@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta http-equiv="Content-Security-Policy" content="default-src ’self’; style-src ’unsafe-inline’ ’self’"/>  
+        <style>  
+            #one {  
+width: 180px; 
+height: 90px;
+background: #f8e34b;
+border-radius: 9px 9px 0 0;
+            }  
+            #square {
+            	background: #eeedef;
+            	width: 50px;
+            	height: 90px;
+            	border-radius: 0 0 0 9px;
+            	box-shadow: inset 0 4px 0.9em #c8c8c8;
+            }
+            #two {
+                background: #0c0c0c;
+            	width: 50px;
+            	height: 90px;
+            	border-radius: 0 0 9px 0;
+            	display: flex;
+            	justify-content: center;
+            }
+            .dex {
+             display: flex;
+             margin-top:  -20px;
+            }
+
+        </style>  
+        <link rel="stylesheet" href="solution.css">  
+    </head>  
+    <body>  
+        <div id="one"></div>
+        <div class="dex">
+        <dir id=square></dir> 
+        <dir id="two"></dir>
+        </div>
+    </body>  
+</html>
